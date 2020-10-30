@@ -1,0 +1,9 @@
+*.tgz
+coverage
+nyc.config.js
+.eslintrc.json
+.github
+pkgs
+fixtures
+test.js
+tap-snapshots

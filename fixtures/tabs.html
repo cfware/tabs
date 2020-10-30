@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>&lt;cfware-tabs&gt; test</title>
+		<style>
+			html, body {
+				display: inline-block!important;
+				margin: 0;
+				width: -moz-fit-content;
+			}
+
+			#test {
+				height: 300px;
+				width: 600px;
+				display: grid;
+			}
+		</style>
+		<script type="module" src="tabs.js"></script>
+		<script type="module" src="/node_modules/@cfware-app/icon/icons.js"></script>
+	</head>
+	<body>
+		<div id="test">
+			<cfware-tabs>
+				<div slot="title" id="tab1"><cfware-icon icon="&#xF007;"></cfware-icon></div>
+				<div slot="contents">
+					<cfware-icon icon="&#xF007;"></cfware-icon>
+					<cfware-icon icon="&#xF007;"></cfware-icon>
+				</div>
+				<div slot="title" id="tab2"><cfware-icon icon="&#xF093;"></cfware-icon></div>
+				<div slot="contents">
+					<cfware-icon icon="&#xF093;"></cfware-icon>
+					<cfware-icon icon="&#xF093;"></cfware-icon>
+				</div>
+				<div slot="title" id="tab3"><cfware-icon icon="&#xF2ED;"></cfware-icon></div>
+				<div slot="contents">
+					<cfware-icon icon="&#xF2ED;"></cfware-icon>
+					<cfware-icon icon="&#xF2ED;"></cfware-icon>
+				</div>
+			</cfware-tabs>
+		</div>
+	</body>
+</html>
