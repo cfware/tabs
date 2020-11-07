@@ -30,7 +30,7 @@
 	},
 	"homepage": "https://github.com/cfware/tabs#readme",
 	"dependencies": {
-		"@cfware/shadow-element": "^0.15.1"
+		"@cfware/shadow-element": "^0.16.1"
 	},
 	"devDependencies": {
 		"@cfware-app/icon": "file:pkgs/icon",
