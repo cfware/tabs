@@ -7,16 +7,16 @@
 	"license": "MIT",
 	"type": "module",
 	"engines": {
-		"node": ">=14.0.0"
+		"node": ">=16.12.0"
 	},
 	"main": "icons.js",
 	"scripts": {
 		"prepare": "cfware-iconbuilder . icon-chars.js iconChars"
 	},
 	"dependencies": {
-		"@cfware/shadow-element": "^0.16.0"
+		"@cfware/shadow-element": "^0.17.0"
 	},
 	"devDependencies": {
-		"@cfware/icon-builder": "^0.3.0"
+		"@cfware/icon-builder": "^0.4.0"
 	}
 }

@@ -12,7 +12,7 @@
 		"posttest": "nyc report --check-coverage"
 	},
 	"engines": {
-		"node": ">=14.0.0"
+		"node": ">=16.12.0"
 	},
 	"author": "Corey Farrell",
 	"license": "MIT",
@@ -30,16 +30,16 @@
 	},
 	"homepage": "https://github.com/cfware/tabs#readme",
 	"dependencies": {
-		"@cfware/shadow-element": "^0.16.1"
+		"@cfware/shadow-element": "^0.17.0"
 	},
 	"devDependencies": {
 		"@cfware-app/icon": "file:pkgs/icon",
-		"@cfware/fastify-test-helper": "^0.7.0",
-		"@cfware/lint": "^2.0.4",
-		"@cfware/nyc": "^0.7.0",
-		"@cfware/tap-selenium-manager": "^1.1.0",
-		"@istanbuljs/esm-loader-hook": "^0.1.2",
-		"libtap": "^0.3.0",
+		"@cfware/fastify-test-helper": "^0.8.0",
+		"@cfware/lint": "^3.0.4",
+		"@cfware/nyc": "^0.7.1",
+		"@cfware/tap-selenium-manager": "^2.0.0",
+		"@istanbuljs/esm-loader-hook": "^0.2.0",
+		"libtap": "^1.4.0",
 		"nyc": "^15.1.0"
 	}
 }

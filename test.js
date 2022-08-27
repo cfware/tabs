@@ -1,6 +1,6 @@
-import path from 'path';
-import fs from 'fs/promises';
-import {fileURLToPath} from 'url';
+import path from 'node:path';
+import {writeFile} from 'node:fs/promises';
+import {fileURLToPath} from 'node:url';
 
 import t from 'libtap';
 import {testBrowser, grabImage} from '@cfware/tap-selenium-manager';
@@ -17,7 +17,7 @@ const imageFile = fullname => path.join(
 const processImage = async (t, element, imageID) => {
 	const image64 = await grabImage(element);
 	t.matchSnapshot(image64, imageID);
-	await fs.writeFile(imageFile(`${t.fullname}-${imageID}.png`), image64);
+	await writeFile(imageFile(`${t.fullname}-${imageID}.png`), image64);
 };
 
 async function testFunction(t, selenium) {
