@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0](https://github.com/cfware/tabs/compare/v0.3.0...v1.0.0) (2023-10-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* Update dependencies
+
+### Features
+
+* Update dependencies ([1c8ad3a](https://github.com/cfware/tabs/commit/1c8ad3ad1acaebfb266bd45a9d2e9b66aefe8c38))
+
 ## [0.3.0](https://github.com/cfware/tabs/compare/v0.2.0...v0.3.0) (2022-08-27)
 
 
